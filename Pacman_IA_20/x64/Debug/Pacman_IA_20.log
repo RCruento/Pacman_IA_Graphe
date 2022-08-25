@@ -1,0 +1,14 @@
+﻿  DeplacementFantomeNiveau2.cpp
+d:\informatique\pacman_ia_20\pacman_ia_20\pacman_ia_20\gameworld.h(41): warning C4091: 'typedef ' : ignoré à gauche de 'GameWorld::position' quand aucune variable n'est déclarée
+d:\informatique\pacman_ia_20\pacman_ia_20\pacman_ia_20\alignement.h(109): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+  d:\informatique\pacman_ia_20\pacman_ia_20\pacman_ia_20\alignement.h(57): note: voir la référence à l'instanciation de la fonction modèle 'Sommet<T> *Alignement::alignementDiagonale<7,7,InfoArete,InfoSommet>(Graphe<InfoArete,T> *,Sommet<T> *(&)[7][7],Sommet<T> *,Sommet<T> *)' en cours de compilation
+          with
+          [
+              T=InfoSommet
+          ]
+  d:\informatique\pacman_ia_20\pacman_ia_20\pacman_ia_20\deplacementfantomeniveau2.cpp(14): note: voir la référence à l'instanciation de la fonction modèle 'Sommet<T> *Alignement::alignement<7,7,InfoArete,InfoSommet>(Graphe<InfoArete,T> *,Sommet<T> *(&)[7][7],Sommet<T> *,Sommet<T> *)' en cours de compilation
+          with
+          [
+              T=InfoSommet
+          ]
+  Pacman_IA_20.vcxproj -> D:\Informatique\Pacman_IA_20\Pacman_IA_20\x64\Debug\Pacman_IA_20.exe

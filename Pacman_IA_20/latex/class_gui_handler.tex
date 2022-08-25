@@ -1,0 +1,38 @@
+\hypertarget{class_gui_handler}{}\doxysection{Gui\+Handler Class Reference}
+\label{class_gui_handler}\index{GuiHandler@{GuiHandler}}
+Inheritance diagram for Gui\+Handler\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{class_gui_handler}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_gui_handler_a1d2abd875037413da0716d6640bc1f58}\label{class_gui_handler_a1d2abd875037413da0716d6640bc1f58}} 
+{\bfseries Gui\+Handler} (\mbox{\hyperlink{class_gui_handler}{Gui\+Handler}} $\ast$next)
+\item 
+\mbox{\Hypertarget{class_gui_handler_a3bd8010a0a9b3c2ee164f5e8028f46b5}\label{class_gui_handler_a3bd8010a0a9b3c2ee164f5e8028f46b5}} 
+void {\bfseries Handle\+Request} (const string \&action\+Name, \mbox{\hyperlink{class_parameters_holder}{Parameters\+Holder}} $\ast$ph) const
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_gui_handler_a0be361c2850d6d891f3ed200b220e68b}\label{class_gui_handler_a0be361c2850d6d891f3ed200b220e68b}} 
+virtual bool {\bfseries can\+Handle} (const string \&action\+Name) const =0
+\item 
+\mbox{\Hypertarget{class_gui_handler_a767e1e91fdcc2bd66a215acb36ac59bf}\label{class_gui_handler_a767e1e91fdcc2bd66a215acb36ac59bf}} 
+virtual void {\bfseries execute} (\mbox{\hyperlink{class_parameters_holder}{Parameters\+Holder}} $\ast$pm) const =0
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_gui_handler_a2b23d3e7e1255b1c5d37b2ef79adefc3}\label{class_gui_handler_a2b23d3e7e1255b1c5d37b2ef79adefc3}} 
+const \mbox{\hyperlink{class_gui_handler}{Gui\+Handler}} $\ast$ {\bfseries next}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Gui\+Handler.\+h\item 
+Gui\+Handler.\+cpp\end{DoxyCompactItemize}

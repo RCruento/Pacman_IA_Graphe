@@ -1,0 +1,97 @@
+\hypertarget{class_game_world}{}\doxysection{Game\+World Class Reference}
+\label{class_game_world}\index{GameWorld@{GameWorld}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_game_world_1_1position}{position}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_world_a47433810055f13a472a074e74a2b5472}\label{class_game_world_a47433810055f13a472a074e74a2b5472}} 
+void {\bfseries init\+Graph\+Virtex} ()
+\item 
+\mbox{\Hypertarget{class_game_world_a6da727894021a6c5ca532e8282fbe261}\label{class_game_world_a6da727894021a6c5ca532e8282fbe261}} 
+\mbox{\hyperlink{struct_game_world_1_1position}{position}} {\bfseries index\+\_\+\+To\+\_\+2\+D\+\_\+\+Index} (int index) const
+\item 
+\mbox{\Hypertarget{class_game_world_af86190dba6f4e9a1c713f03bdf8db922}\label{class_game_world_af86190dba6f4e9a1c713f03bdf8db922}} 
+int {\bfseries Two\+D\+\_\+index\+\_\+\+To\+\_\+1D} (const \mbox{\hyperlink{struct_game_world_1_1position}{position}} \&) const
+\item 
+\mbox{\Hypertarget{class_game_world_afd7bc92732b89ba755015bbe07fdcf75}\label{class_game_world_afd7bc92732b89ba755015bbe07fdcf75}} 
+\mbox{\hyperlink{struct_game_world_1_1position}{position}} {\bfseries get\+Pac\+Mac\+Position} () const
+\item 
+\mbox{\Hypertarget{class_game_world_a4f281c4b009da27e5f3438cb07990cf5}\label{class_game_world_a4f281c4b009da27e5f3438cb07990cf5}} 
+bool {\bfseries verifier\+Si\+Le\+Niveau\+Est\+Changer} ()
+\item 
+\mbox{\Hypertarget{class_game_world_ae7909510e09b36e1e8ade50b611cc976}\label{class_game_world_ae7909510e09b36e1e8ade50b611cc976}} 
+bool {\bfseries colision} (\mbox{\hyperlink{class_game_element}{Game\+Element}}$<$ Info\+Sommet $>$ $\ast$ge1, \mbox{\hyperlink{class_game_element}{Game\+Element}}$<$ Info\+Sommet $>$ $\ast$ge2) const
+\item 
+\mbox{\Hypertarget{class_game_world_a08033bf45b2d375dde7a5f44cfe4edac}\label{class_game_world_a08033bf45b2d375dde7a5f44cfe4edac}} 
+void {\bfseries refroidir\+Chemins} ()
+\item 
+\mbox{\Hypertarget{class_game_world_a88ed2c585eafb4593e5b4a30ec6ad45c}\label{class_game_world_a88ed2c585eafb4593e5b4a30ec6ad45c}} 
+void {\bfseries reset\+Chaleur\+\_\+des\+\_\+\+Arretes} ()
+\item 
+\mbox{\Hypertarget{class_game_world_a6b78d609172e2fcc618dc4783dbe41e1}\label{class_game_world_a6b78d609172e2fcc618dc4783dbe41e1}} 
+void {\bfseries reset\+Game} ()
+\item 
+\mbox{\Hypertarget{class_game_world_abc09c6cc72050ec3955b735697e03860}\label{class_game_world_abc09c6cc72050ec3955b735697e03860}} 
+void {\bfseries partie\+Suivate} ()
+\item 
+\mbox{\Hypertarget{class_game_world_a6dd9ebc9708b7c545c1694b66303e005}\label{class_game_world_a6dd9ebc9708b7c545c1694b66303e005}} 
+void {\bfseries reset\+Game\+Level} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_world_ab216e698a4e16be7803c5aa0d2eb0846}\label{class_game_world_ab216e698a4e16be7803c5aa0d2eb0846}} 
+static \mbox{\hyperlink{class_game_world}{Game\+World}} $\ast$ {\bfseries get\+Instance} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_world_a4f04f2e2888498a67ac01765610e0c77}\label{class_game_world_a4f04f2e2888498a67ac01765610e0c77}} 
+Graphe$<$ Info\+Arete, Info\+Sommet $>$ {\bfseries g}
+\item 
+\mbox{\Hypertarget{class_game_world_a09b6733412c67649e2e9efaadcd978ec}\label{class_game_world_a09b6733412c67649e2e9efaadcd978ec}} 
+Sommet$<$ Info\+Sommet $>$ $\ast$ {\bfseries sommet} \mbox{[}N\+B\+\_\+\+C\+O\+L\+U\+M\+NS\mbox{]}\mbox{[}N\+B\+\_\+\+L\+I\+N\+ES\mbox{]}
+\item 
+\mbox{\Hypertarget{class_game_world_ab5a2c39e73aaf70b9f0d08ee9740d660}\label{class_game_world_ab5a2c39e73aaf70b9f0d08ee9740d660}} 
+\mbox{\hyperlink{class_pac_man}{Pac\+Man}}$<$ Info\+Sommet $>$ $\ast$ {\bfseries pacM}
+\item 
+\mbox{\Hypertarget{class_game_world_a9dc7c09de81e8965566b2b65013949a8}\label{class_game_world_a9dc7c09de81e8965566b2b65013949a8}} 
+\mbox{\hyperlink{class_star}{Star}}$<$ Info\+Sommet $>$ $\ast$ {\bfseries star} \mbox{[}N\+O\+M\+B\+R\+E\+\_\+\+D\+E\+\_\+\+Star\mbox{]}
+\item 
+\mbox{\Hypertarget{class_game_world_a6fbfe028703b024cec5c5967d54ed4c4}\label{class_game_world_a6fbfe028703b024cec5c5967d54ed4c4}} 
+\mbox{\hyperlink{class_fantome}{Fantome}}$<$ Info\+Sommet $>$ $\ast$ {\bfseries pantomes} \mbox{[}N\+O\+M\+B\+R\+E\+\_\+\+D\+E\+\_\+\+F\+A\+N\+T\+O\+ME\mbox{]}
+\item 
+\mbox{\Hypertarget{class_game_world_a8f5c9cdbd600d9c64d6a54a501013c86}\label{class_game_world_a8f5c9cdbd600d9c64d6a54a501013c86}} 
+vector$<$ \mbox{\hyperlink{class_game_element}{Game\+Element}}$<$ Info\+Sommet $>$ $\ast$ $>$ {\bfseries game\+Elements}
+\item 
+\mbox{\Hypertarget{class_game_world_a5215e6ed2e0255cf1ee1092a6c9a33aa}\label{class_game_world_a5215e6ed2e0255cf1ee1092a6c9a33aa}} 
+\mbox{\hyperlink{struct_game_world_1_1position}{position}} {\bfseries pac\+Man\+Position}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_world_a47f1905e923ad9d68de9bd9ee488a1fc}\label{class_game_world_a47f1905e923ad9d68de9bd9ee488a1fc}} 
+static const int {\bfseries N\+B\+\_\+\+L\+I\+N\+ES} = 6
+\item 
+\mbox{\Hypertarget{class_game_world_a38a6a306f0a59464bc4f09c8b4ef7c71}\label{class_game_world_a38a6a306f0a59464bc4f09c8b4ef7c71}} 
+static const int {\bfseries N\+B\+\_\+\+C\+O\+L\+U\+M\+NS} = 6
+\item 
+\mbox{\Hypertarget{class_game_world_a83cfe7c855dca442f544724bb6232c11}\label{class_game_world_a83cfe7c855dca442f544724bb6232c11}} 
+static const int {\bfseries N\+O\+M\+B\+R\+E\+\_\+\+D\+E\+\_\+\+Star} = 4
+\item 
+\mbox{\Hypertarget{class_game_world_a2307f212b95655ab9a8961271d8265b2}\label{class_game_world_a2307f212b95655ab9a8961271d8265b2}} 
+static const int {\bfseries N\+O\+M\+B\+R\+E\+\_\+\+D\+E\+\_\+\+F\+A\+N\+T\+O\+ME} = 2
+\item 
+\mbox{\Hypertarget{class_game_world_a38ec8dd88143713b20240a305bef09b6}\label{class_game_world_a38ec8dd88143713b20240a305bef09b6}} 
+static \mbox{\hyperlink{class_game_world}{Game\+World}} $\ast$ {\bfseries gw}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Game\+World.\+h\item 
+Game\+World.\+cpp\end{DoxyCompactItemize}

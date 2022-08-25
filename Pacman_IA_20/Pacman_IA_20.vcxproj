@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{B3B87B98-4BCF-4794-8A04-94F8CD35B333}</ProjectGuid>
+    <RootNamespace>PacmanIA20</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Informatique\Pacman_IA_20\Pacman_IA_20\SFML\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>D:\Informatique\Pacman_IA_20\Pacman_IA_20\SFML\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Informatique\Pacman_IA_20\Pacman_IA_20\SFML\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>D:\Informatique\Pacman_IA_20\Pacman_IA_20\SFML\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Informatique\Pacman_IA_20\Pacman_IA_20\SFML\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\Informatique\Pacman_IA_20\Pacman_IA_20\SFML\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>winmm.lib;opengl32.lib;freetype.lib;sfml-graphics-s.lib;sfml-window-s.lib;sfml-system-s.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Informatique\Pacman_IA_20\Pacman_IA_20\SFML\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\Informatique\Pacman_IA_20\Pacman_IA_20\SFML\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-s.lib;sfml-window-s.lib;sfml-system-s.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Alignement.h" />
+    <ClInclude Include="BottomKeyHandler.h" />
+    <ClInclude Include="BottomLeftKeyHandler.h" />
+    <ClInclude Include="BottomRightKeyHandler.h" />
+    <ClInclude Include="configs.h" />
+    <ClInclude Include="DeplacementFantomeNiveau1.h" />
+    <ClInclude Include="DeplacementFantomeNiveau2.h" />
+    <ClInclude Include="DeplacementFantomeNiveau3.h" />
+    <ClInclude Include="DrawElement.h" />
+    <ClInclude Include="DrawWithSFML.h" />
+    <ClInclude Include="exGuiHandler.h" />
+    <ClInclude Include="Fantome.h" />
+    <ClInclude Include="FinJeuScreen.h" />
+    <ClInclude Include="GameElement.h" />
+    <ClInclude Include="GameScreen.h" />
+    <ClInclude Include="GameWorld.h" />
+    <ClInclude Include="Graphe\AElement.h" />
+    <ClInclude Include="Graphe\AlgebreLineaire.h" />
+    <ClInclude Include="Graphe\Arete.h" />
+    <ClInclude Include="Graphe\AStarT.h" />
+    <ClInclude Include="Graphe\Erreur.h" />
+    <ClInclude Include="Graphe\FenetreGrapheSFML.h" />
+    <ClInclude Include="Graphe\FenetreGrapheSFMLAStar.h" />
+    <ClInclude Include="Graphe\GElement.h" />
+    <ClInclude Include="Graphe\Graphe.h" />
+    <ClInclude Include="Graphe\InfoArete.h" />
+    <ClInclude Include="Graphe\InfoAStar.h" />
+    <ClInclude Include="Graphe\InfosGrapheDessin.h" />
+    <ClInclude Include="Graphe\InfoSommet.h" />
+    <ClInclude Include="Graphe\Matrice22.h" />
+    <ClInclude Include="Graphe\Outils.h" />
+    <ClInclude Include="Graphe\OutilsCarte.h" />
+    <ClInclude Include="Graphe\PElement.h" />
+    <ClInclude Include="Graphe\Reels.h" />
+    <ClInclude Include="Graphe\Sommet.h" />
+    <ClInclude Include="Graphe\TransfoAffine2D.h" />
+    <ClInclude Include="Graphe\Vecteur2D.h" />
+    <ClInclude Include="GuiHandler.h" />
+    <ClInclude Include="LeftKeyHandler.h" />
+    <ClInclude Include="MainController.h" />
+    <ClInclude Include="MenuScreen.h" />
+    <ClInclude Include="MyColor.h" />
+    <ClInclude Include="MyWindow.h" />
+    <ClInclude Include="NiveauScreen.h" />
+    <ClInclude Include="PacMan.h" />
+    <ClInclude Include="ParametersHolder.h" />
+    <ClInclude Include="Star.h" />
+    <ClInclude Include="RightKeyHandler.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="TextureFactory.h" />
+    <ClInclude Include="Tools.h" />
+    <ClInclude Include="TopKeyHandler.h" />
+    <ClInclude Include="TopLeftKeyHandler.h" />
+    <ClInclude Include="TopRightKeyHandler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BottomKeyHandler.cpp" />
+    <ClCompile Include="BottomLeftKeyHandler.cpp" />
+    <ClCompile Include="BottomRightKeyHandler.cpp" />
+    <ClCompile Include="configs.cpp" />
+    <ClCompile Include="DeplacementFantomeNiveau1.cpp" />
+    <ClCompile Include="DeplacementFantomeNiveau2.cpp" />
+    <ClCompile Include="DeplacementFantomeNiveau3.cpp" />
+    <ClCompile Include="DrawWithSFML.cpp" />
+    <ClCompile Include="FenetreGrapheSFML.cpp" />
+    <ClCompile Include="FinJeuScreen.cpp" />
+    <ClCompile Include="GameScreen.cpp" />
+    <ClCompile Include="GameWorld.cpp" />
+    <ClCompile Include="Graphe\InfoAStar.cpp" />
+    <ClCompile Include="Graphe\OutilsCarte.cpp" />
+    <ClCompile Include="GuiHandler.cpp" />
+    <ClCompile Include="LeftKeyHandler.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainController.cpp" />
+    <ClCompile Include="MenuScreen.cpp" />
+    <ClCompile Include="MyWindow.cpp" />
+    <ClCompile Include="NiveauScreen.cpp" />
+    <ClCompile Include="RightKeyHandler.cpp" />
+    <ClCompile Include="TextureFactory.cpp" />
+    <ClCompile Include="Tools.cpp" />
+    <ClCompile Include="TopKeyHandler.cpp" />
+    <ClCompile Include="TopLeftKeyHandler.cpp" />
+    <ClCompile Include="TopRightKeyHandler.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

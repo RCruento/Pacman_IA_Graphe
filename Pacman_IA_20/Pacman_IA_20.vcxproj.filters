@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Controller">
+      <UniqueIdentifier>{90e05575-8beb-4e56-9f04-45ebe517d1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\DrawingVisitor">
+      <UniqueIdentifier>{30fa5c0a-689e-4267-9f3e-bcefb5bd0bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Exceptions">
+      <UniqueIdentifier>{ce5ad14b-98df-4b36-a6de-0d2f87f98c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Interactions_h">
+      <UniqueIdentifier>{b92b25fa-b323-4f58-964a-b88811a3a17a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Interactions_h\Chemin_Deplacement">
+      <UniqueIdentifier>{b954698d-8a92-4943-8c08-edf23d0bb1fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Interactions_h\PacMan_Interaction">
+      <UniqueIdentifier>{d86f7ab5-3d7a-49e8-ab4c-74db5f1c592b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Model">
+      <UniqueIdentifier>{2bf38414-997e-4dd8-b55a-03122e1192a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Model\Graphe">
+      <UniqueIdentifier>{4a0a0e20-e9e4-4557-a2f5-7d26b277c8d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\View">
+      <UniqueIdentifier>{54cd417e-a340-4e33-9668-390459d1cdbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\View\Screens">
+      <UniqueIdentifier>{8922ce22-f33b-4fa9-ae35-0b82aeb12717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Controller">
+      <UniqueIdentifier>{70174f2f-b9fa-439c-9702-803791989774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Interactions">
+      <UniqueIdentifier>{ea19ac4f-aa06-4981-9f50-a3bdd4c3d7a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Interactions\Chemin_Deplacement">
+      <UniqueIdentifier>{ceab4891-764a-43fc-bd2e-bc42b52f32e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Interactions\PacMan_Interaction">
+      <UniqueIdentifier>{0ad7f1af-0b3a-42c0-bbb2-392fe1ffbe23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Model">
+      <UniqueIdentifier>{c3e7d1bb-1a11-4575-8248-c14f761c6ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Model\Graphe">
+      <UniqueIdentifier>{604cca55-140d-4183-ba37-2a39e0349194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\View">
+      <UniqueIdentifier>{5dc2b06d-6c24-4fdd-80af-a3386fb5764e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\View\Screens">
+      <UniqueIdentifier>{36f8d01c-5ba5-4bc8-bc62-311a62ffe5f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainController.h">
+      <Filter>Fichiers d%27en-tête\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawElement.h">
+      <Filter>Fichiers d%27en-tête\DrawingVisitor</Filter>
+    </ClInclude>
+    <ClInclude Include="exGuiHandler.h">
+      <Filter>Fichiers d%27en-tête\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="DeplacementFantomeNiveau1.h">
+      <Filter>Fichiers d%27en-tête\Interactions_h\Chemin_Deplacement</Filter>
+    </ClInclude>
+    <ClInclude Include="DeplacementFantomeNiveau2.h">
+      <Filter>Fichiers d%27en-tête\Interactions_h\Chemin_Deplacement</Filter>
+    </ClInclude>
+    <ClInclude Include="DeplacementFantomeNiveau3.h">
+      <Filter>Fichiers d%27en-tête\Interactions_h\Chemin_Deplacement</Filter>
+    </ClInclude>
+    <ClInclude Include="BottomKeyHandler.h">
+      <Filter>Fichiers d%27en-tête\Interactions_h\PacMan_Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="BottomLeftKeyHandler.h">
+      <Filter>Fichiers d%27en-tête\Interactions_h\PacMan_Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="BottomRightKeyHandler.h">
+      <Filter>Fichiers d%27en-tête\Interactions_h\PacMan_Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiHandler.h">
+      <Filter>Fichiers d%27en-tête\Interactions_h\PacMan_Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftKeyHandler.h">
+      <Filter>Fichiers d%27en-tête\Interactions_h\PacMan_Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="ParametersHolder.h">
+      <Filter>Fichiers d%27en-tête\Interactions_h\PacMan_Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="RightKeyHandler.h">
+      <Filter>Fichiers d%27en-tête\Interactions_h\PacMan_Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="TopKeyHandler.h">
+      <Filter>Fichiers d%27en-tête\Interactions_h\PacMan_Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="TopLeftKeyHandler.h">
+      <Filter>Fichiers d%27en-tête\Interactions_h\PacMan_Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="TopRightKeyHandler.h">
+      <Filter>Fichiers d%27en-tête\Interactions_h\PacMan_Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="Fantome.h">
+      <Filter>Fichiers d%27en-tête\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>Fichiers d%27en-tête\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PacMan.h">
+      <Filter>Fichiers d%27en-tête\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\AElement.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\AlgebreLineaire.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\Arete.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\AStarT.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\Erreur.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\FenetreGrapheSFML.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\FenetreGrapheSFMLAStar.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="GameElement.h">
+      <Filter>Fichiers d%27en-tête\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\GElement.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\Graphe.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\InfoArete.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\InfoAStar.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\InfosGrapheDessin.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\InfoSommet.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\Matrice22.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\Outils.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\OutilsCarte.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\PElement.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\Reels.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\Sommet.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\TransfoAffine2D.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphe\Vecteur2D.h">
+      <Filter>Fichiers d%27en-tête\Model\Graphe</Filter>
+    </ClInclude>
+    <ClInclude Include="MyWindow.h">
+      <Filter>Fichiers d%27en-tête\View</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureFactory.h">
+      <Filter>Fichiers d%27en-tête\View</Filter>
+    </ClInclude>
+    <ClInclude Include="FinJeuScreen.h">
+      <Filter>Fichiers d%27en-tête\View\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>Fichiers d%27en-tête\View\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScreen.h">
+      <Filter>Fichiers d%27en-tête\View\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="NiveauScreen.h">
+      <Filter>Fichiers d%27en-tête\View\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Fichiers d%27en-tête\View\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Alignement.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="configs.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawWithSFML.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="MyColor.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>Fichiers d%27en-tête\Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainController.cpp">
+      <Filter>Fichiers sources\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawWithSFML.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DeplacementFantomeNiveau1.cpp">
+      <Filter>Fichiers sources\Interactions\Chemin_Deplacement</Filter>
+    </ClCompile>
+    <ClCompile Include="DeplacementFantomeNiveau2.cpp">
+      <Filter>Fichiers sources\Interactions\Chemin_Deplacement</Filter>
+    </ClCompile>
+    <ClCompile Include="DeplacementFantomeNiveau3.cpp">
+      <Filter>Fichiers sources\Interactions\Chemin_Deplacement</Filter>
+    </ClCompile>
+    <ClCompile Include="BottomKeyHandler.cpp">
+      <Filter>Fichiers sources\Interactions\PacMan_Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="BottomLeftKeyHandler.cpp">
+      <Filter>Fichiers sources\Interactions\PacMan_Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="BottomRightKeyHandler.cpp">
+      <Filter>Fichiers sources\Interactions\PacMan_Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiHandler.cpp">
+      <Filter>Fichiers sources\Interactions\PacMan_Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftKeyHandler.cpp">
+      <Filter>Fichiers sources\Interactions\PacMan_Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="RightKeyHandler.cpp">
+      <Filter>Fichiers sources\Interactions\PacMan_Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="TopKeyHandler.cpp">
+      <Filter>Fichiers sources\Interactions\PacMan_Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="TopLeftKeyHandler.cpp">
+      <Filter>Fichiers sources\Interactions\PacMan_Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="TopRightKeyHandler.cpp">
+      <Filter>Fichiers sources\Interactions\PacMan_Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphe\InfoAStar.cpp">
+      <Filter>Fichiers sources\Model\Graphe</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphe\OutilsCarte.cpp">
+      <Filter>Fichiers sources\Model\Graphe</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>Fichiers sources\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="FenetreGrapheSFML.cpp">
+      <Filter>Fichiers sources\Model\Graphe</Filter>
+    </ClCompile>
+    <ClCompile Include="FinJeuScreen.cpp">
+      <Filter>Fichiers sources\View\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>Fichiers sources\View\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScreen.cpp">
+      <Filter>Fichiers sources\View\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="NiveauScreen.cpp">
+      <Filter>Fichiers sources\View\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="MyWindow.cpp">
+      <Filter>Fichiers sources\View</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureFactory.cpp">
+      <Filter>Fichiers sources\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="configs.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
